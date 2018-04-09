@@ -15,23 +15,76 @@
 		9114C860207B106000A2A26F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C85F207B106000A2A26F /* main.m */; };
 		9114C86A207B106000A2A26F /* YXCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C869207B106000A2A26F /* YXCalendarTests.m */; };
 		9114C875207B106000A2A26F /* YXCalendarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C874207B106000A2A26F /* YXCalendarUITests.m */; };
-		9114C8A4207B146700A2A26F /* FSCalendar+Deprecated.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C883207B146700A2A26F /* FSCalendar+Deprecated.m */; };
-		9114C8A5207B146700A2A26F /* FSCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C885207B146700A2A26F /* FSCalendar.m */; };
-		9114C8A6207B146700A2A26F /* FSCalendarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C887207B146700A2A26F /* FSCalendarAppearance.m */; };
-		9114C8A7207B146700A2A26F /* FSCalendarCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C889207B146700A2A26F /* FSCalendarCalculator.m */; };
-		9114C8A8207B146700A2A26F /* FSCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C88B207B146700A2A26F /* FSCalendarCell.m */; };
-		9114C8A9207B146700A2A26F /* FSCalendarCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C88D207B146700A2A26F /* FSCalendarCollectionView.m */; };
-		9114C8AA207B146700A2A26F /* FSCalendarCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C88F207B146700A2A26F /* FSCalendarCollectionViewLayout.m */; };
-		9114C8AB207B146700A2A26F /* FSCalendarConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C891207B146700A2A26F /* FSCalendarConstants.m */; };
-		9114C8AC207B146700A2A26F /* FSCalendarDelegationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C893207B146700A2A26F /* FSCalendarDelegationFactory.m */; };
-		9114C8AD207B146700A2A26F /* FSCalendarDelegationProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C895207B146700A2A26F /* FSCalendarDelegationProxy.m */; };
-		9114C8AE207B146700A2A26F /* FSCalendarExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C898207B146700A2A26F /* FSCalendarExtensions.m */; };
-		9114C8AF207B146700A2A26F /* FSCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C89A207B146700A2A26F /* FSCalendarHeaderView.m */; };
-		9114C8B0207B146700A2A26F /* FSCalendarScopeHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C89C207B146700A2A26F /* FSCalendarScopeHandle.m */; };
-		9114C8B1207B146700A2A26F /* FSCalendarStickyHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C89E207B146700A2A26F /* FSCalendarStickyHeader.m */; };
-		9114C8B2207B146700A2A26F /* FSCalendarTransitionCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C8A0207B146700A2A26F /* FSCalendarTransitionCoordinator.m */; };
-		9114C8B3207B146700A2A26F /* FSCalendarWeekdayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C8A2207B146700A2A26F /* FSCalendarWeekdayView.m */; };
-		9114C8B4207B146700A2A26F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9114C8A3207B146700A2A26F /* Info.plist */; };
+		9114C944207B5EA200A2A26F /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C8C0207B5EA100A2A26F /* AFHTTPSessionManager.m */; };
+		9114C945207B5EA200A2A26F /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C8C3207B5EA100A2A26F /* AFNetworkReachabilityManager.m */; };
+		9114C946207B5EA200A2A26F /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C8C5207B5EA100A2A26F /* AFSecurityPolicy.m */; };
+		9114C947207B5EA200A2A26F /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C8C7207B5EA100A2A26F /* AFURLRequestSerialization.m */; };
+		9114C948207B5EA200A2A26F /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C8C9207B5EA100A2A26F /* AFURLResponseSerialization.m */; };
+		9114C949207B5EA200A2A26F /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C8CB207B5EA100A2A26F /* AFURLSessionManager.m */; };
+		9114C94A207B5EA200A2A26F /* FSCalendar+Deprecated.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C8CD207B5EA100A2A26F /* FSCalendar+Deprecated.m */; };
+		9114C94B207B5EA200A2A26F /* FSCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C8CF207B5EA100A2A26F /* FSCalendar.m */; };
+		9114C94C207B5EA200A2A26F /* FSCalendarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C8D1207B5EA100A2A26F /* FSCalendarAppearance.m */; };
+		9114C94D207B5EA200A2A26F /* FSCalendarCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C8D3207B5EA100A2A26F /* FSCalendarCalculator.m */; };
+		9114C94E207B5EA200A2A26F /* FSCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C8D5207B5EA100A2A26F /* FSCalendarCell.m */; };
+		9114C94F207B5EA200A2A26F /* FSCalendarCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C8D7207B5EA100A2A26F /* FSCalendarCollectionView.m */; };
+		9114C950207B5EA200A2A26F /* FSCalendarCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C8D9207B5EA100A2A26F /* FSCalendarCollectionViewLayout.m */; };
+		9114C951207B5EA200A2A26F /* FSCalendarConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C8DB207B5EA100A2A26F /* FSCalendarConstants.m */; };
+		9114C952207B5EA200A2A26F /* FSCalendarDelegationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C8DD207B5EA100A2A26F /* FSCalendarDelegationFactory.m */; };
+		9114C953207B5EA200A2A26F /* FSCalendarDelegationProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C8DF207B5EA100A2A26F /* FSCalendarDelegationProxy.m */; };
+		9114C954207B5EA200A2A26F /* FSCalendarExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C8E2207B5EA100A2A26F /* FSCalendarExtensions.m */; };
+		9114C955207B5EA200A2A26F /* FSCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C8E4207B5EA100A2A26F /* FSCalendarHeaderView.m */; };
+		9114C956207B5EA200A2A26F /* FSCalendarScopeHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C8E6207B5EA100A2A26F /* FSCalendarScopeHandle.m */; };
+		9114C957207B5EA200A2A26F /* FSCalendarStickyHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C8E8207B5EA100A2A26F /* FSCalendarStickyHeader.m */; };
+		9114C958207B5EA200A2A26F /* FSCalendarTransitionCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C8EA207B5EA100A2A26F /* FSCalendarTransitionCoordinator.m */; };
+		9114C959207B5EA200A2A26F /* FSCalendarWeekdayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C8EC207B5EA100A2A26F /* FSCalendarWeekdayView.m */; };
+		9114C95A207B5EA200A2A26F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9114C8ED207B5EA200A2A26F /* Info.plist */; };
+		9114C95B207B5EA200A2A26F /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C8F1207B5EA200A2A26F /* IQNSArray+Sort.m */; };
+		9114C95C207B5EA200A2A26F /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C8F3207B5EA200A2A26F /* IQUIScrollView+Additions.m */; };
+		9114C95D207B5EA200A2A26F /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C8F5207B5EA200A2A26F /* IQUITextFieldView+Additions.m */; };
+		9114C95E207B5EA200A2A26F /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C8F7207B5EA200A2A26F /* IQUIView+Hierarchy.m */; };
+		9114C95F207B5EA200A2A26F /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C8F9207B5EA200A2A26F /* IQUIViewController+Additions.m */; };
+		9114C960207B5EA200A2A26F /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C8FE207B5EA200A2A26F /* IQKeyboardManager.m */; };
+		9114C961207B5EA200A2A26F /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C900207B5EA200A2A26F /* IQKeyboardReturnKeyHandler.m */; };
+		9114C962207B5EA200A2A26F /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C903207B5EA200A2A26F /* IQTextView.m */; };
+		9114C963207B5EA200A2A26F /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C906207B5EA200A2A26F /* IQBarButtonItem.m */; };
+		9114C964207B5EA200A2A26F /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C908207B5EA200A2A26F /* IQPreviousNextView.m */; };
+		9114C965207B5EA200A2A26F /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C90A207B5EA200A2A26F /* IQTitleBarButtonItem.m */; };
+		9114C966207B5EA200A2A26F /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C90C207B5EA200A2A26F /* IQToolbar.m */; };
+		9114C967207B5EA200A2A26F /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C90E207B5EA200A2A26F /* IQUIView+IQKeyboardToolbar.m */; };
+		9114C968207B5EA200A2A26F /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9114C910207B5EA200A2A26F /* IQKeyboardManager.bundle */; };
+		9114C969207B5EA200A2A26F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9114C912207B5EA200A2A26F /* Info.plist */; };
+		9114C96A207B5EA200A2A26F /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C914207B5EA200A2A26F /* MASCompositeConstraint.m */; };
+		9114C96B207B5EA200A2A26F /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C917207B5EA200A2A26F /* MASConstraint.m */; };
+		9114C96C207B5EA200A2A26F /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C919207B5EA200A2A26F /* MASConstraintMaker.m */; };
+		9114C96D207B5EA200A2A26F /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C91B207B5EA200A2A26F /* MASLayoutConstraint.m */; };
+		9114C96E207B5EA200A2A26F /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C91F207B5EA200A2A26F /* MASViewAttribute.m */; };
+		9114C96F207B5EA200A2A26F /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C921207B5EA200A2A26F /* MASViewConstraint.m */; };
+		9114C970207B5EA200A2A26F /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C923207B5EA200A2A26F /* NSArray+MASAdditions.m */; };
+		9114C971207B5EA200A2A26F /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C926207B5EA200A2A26F /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		9114C972207B5EA200A2A26F /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C928207B5EA200A2A26F /* View+MASAdditions.m */; };
+		9114C973207B5EA200A2A26F /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C92B207B5EA200A2A26F /* ViewController+MASAdditions.m */; };
+		9114C974207B5EA200A2A26F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9114C92D207B5EA200A2A26F /* Info.plist */; };
+		9114C975207B5EA200A2A26F /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C930207B5EA200A2A26F /* MJExtensionConst.m */; };
+		9114C976207B5EA200A2A26F /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C932207B5EA200A2A26F /* MJFoundation.m */; };
+		9114C977207B5EA200A2A26F /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C934207B5EA200A2A26F /* MJProperty.m */; };
+		9114C978207B5EA200A2A26F /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C936207B5EA200A2A26F /* MJPropertyKey.m */; };
+		9114C979207B5EA200A2A26F /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C938207B5EA200A2A26F /* MJPropertyType.m */; };
+		9114C97A207B5EA200A2A26F /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C93A207B5EA200A2A26F /* NSObject+MJClass.m */; };
+		9114C97B207B5EA200A2A26F /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C93C207B5EA200A2A26F /* NSObject+MJCoding.m */; };
+		9114C97C207B5EA200A2A26F /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C93E207B5EA200A2A26F /* NSObject+MJKeyValue.m */; };
+		9114C97D207B5EA200A2A26F /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C940207B5EA200A2A26F /* NSObject+MJProperty.m */; };
+		9114C97E207B5EA200A2A26F /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C942207B5EA200A2A26F /* NSString+MJExtension.m */; };
+		9114C984207B630B00A2A26F /* AddTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C983207B630B00A2A26F /* AddTabBar.m */; };
+		9114C989207B640100A2A26F /* UIBarButtonItem+PGGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C985207B640100A2A26F /* UIBarButtonItem+PGGExtension.m */; };
+		9114C98A207B640100A2A26F /* UIView+PGGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C987207B640100A2A26F /* UIView+PGGExtension.m */; };
+		9114C993207B647800A2A26F /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C992207B647800A2A26F /* MBProgressHUD.m */; };
+		9114C997207B6CD300A2A26F /* YXCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C996207B6CD300A2A26F /* YXCTabBarController.m */; };
+		9114C99A207B6D0600A2A26F /* YXCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C999207B6D0600A2A26F /* YXCNavigationController.m */; };
+		9114C9AA207B713C00A2A26F /* YXHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C9A9207B713C00A2A26F /* YXHomeViewController.m */; };
+		9114C9AD207B715500A2A26F /* YXFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C9AC207B715500A2A26F /* YXFindViewController.m */; };
+		9114C9B0207B716C00A2A26F /* YXMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C9AF207B716C00A2A26F /* YXMyViewController.m */; };
+		9114C9B4207B727400A2A26F /* NewTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C9B3207B727400A2A26F /* NewTaskViewController.m */; };
+		9114C9B8207B7E7F00A2A26F /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C9B7207B7E7E00A2A26F /* UIViewExt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,39 +121,152 @@
 		9114C870207B106000A2A26F /* YXCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9114C874207B106000A2A26F /* YXCalendarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXCalendarUITests.m; sourceTree = "<group>"; };
 		9114C876207B106000A2A26F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9114C883207B146700A2A26F /* FSCalendar+Deprecated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FSCalendar+Deprecated.m"; sourceTree = "<group>"; };
-		9114C884207B146700A2A26F /* FSCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendar.h; sourceTree = "<group>"; };
-		9114C885207B146700A2A26F /* FSCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendar.m; sourceTree = "<group>"; };
-		9114C886207B146700A2A26F /* FSCalendarAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarAppearance.h; sourceTree = "<group>"; };
-		9114C887207B146700A2A26F /* FSCalendarAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarAppearance.m; sourceTree = "<group>"; };
-		9114C888207B146700A2A26F /* FSCalendarCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCalculator.h; sourceTree = "<group>"; };
-		9114C889207B146700A2A26F /* FSCalendarCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCalculator.m; sourceTree = "<group>"; };
-		9114C88A207B146700A2A26F /* FSCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCell.h; sourceTree = "<group>"; };
-		9114C88B207B146700A2A26F /* FSCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCell.m; sourceTree = "<group>"; };
-		9114C88C207B146700A2A26F /* FSCalendarCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCollectionView.h; sourceTree = "<group>"; };
-		9114C88D207B146700A2A26F /* FSCalendarCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCollectionView.m; sourceTree = "<group>"; };
-		9114C88E207B146700A2A26F /* FSCalendarCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCollectionViewLayout.h; sourceTree = "<group>"; };
-		9114C88F207B146700A2A26F /* FSCalendarCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCollectionViewLayout.m; sourceTree = "<group>"; };
-		9114C890207B146700A2A26F /* FSCalendarConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarConstants.h; sourceTree = "<group>"; };
-		9114C891207B146700A2A26F /* FSCalendarConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarConstants.m; sourceTree = "<group>"; };
-		9114C892207B146700A2A26F /* FSCalendarDelegationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarDelegationFactory.h; sourceTree = "<group>"; };
-		9114C893207B146700A2A26F /* FSCalendarDelegationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarDelegationFactory.m; sourceTree = "<group>"; };
-		9114C894207B146700A2A26F /* FSCalendarDelegationProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarDelegationProxy.h; sourceTree = "<group>"; };
-		9114C895207B146700A2A26F /* FSCalendarDelegationProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarDelegationProxy.m; sourceTree = "<group>"; };
-		9114C896207B146700A2A26F /* FSCalendarDynamicHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarDynamicHeader.h; sourceTree = "<group>"; };
-		9114C897207B146700A2A26F /* FSCalendarExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarExtensions.h; sourceTree = "<group>"; };
-		9114C898207B146700A2A26F /* FSCalendarExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarExtensions.m; sourceTree = "<group>"; };
-		9114C899207B146700A2A26F /* FSCalendarHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarHeaderView.h; sourceTree = "<group>"; };
-		9114C89A207B146700A2A26F /* FSCalendarHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarHeaderView.m; sourceTree = "<group>"; };
-		9114C89B207B146700A2A26F /* FSCalendarScopeHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarScopeHandle.h; sourceTree = "<group>"; };
-		9114C89C207B146700A2A26F /* FSCalendarScopeHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarScopeHandle.m; sourceTree = "<group>"; };
-		9114C89D207B146700A2A26F /* FSCalendarStickyHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarStickyHeader.h; sourceTree = "<group>"; };
-		9114C89E207B146700A2A26F /* FSCalendarStickyHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarStickyHeader.m; sourceTree = "<group>"; };
-		9114C89F207B146700A2A26F /* FSCalendarTransitionCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarTransitionCoordinator.h; sourceTree = "<group>"; };
-		9114C8A0207B146700A2A26F /* FSCalendarTransitionCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarTransitionCoordinator.m; sourceTree = "<group>"; };
-		9114C8A1207B146700A2A26F /* FSCalendarWeekdayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarWeekdayView.h; sourceTree = "<group>"; };
-		9114C8A2207B146700A2A26F /* FSCalendarWeekdayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarWeekdayView.m; sourceTree = "<group>"; };
-		9114C8A3207B146700A2A26F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9114C8B5207B3B0300A2A26F /* YXCalendar.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXCalendar.pch; sourceTree = "<group>"; };
+		9114C8BF207B5EA100A2A26F /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		9114C8C0207B5EA100A2A26F /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		9114C8C1207B5EA100A2A26F /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		9114C8C2207B5EA100A2A26F /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		9114C8C3207B5EA100A2A26F /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		9114C8C4207B5EA100A2A26F /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		9114C8C5207B5EA100A2A26F /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		9114C8C6207B5EA100A2A26F /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		9114C8C7207B5EA100A2A26F /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		9114C8C8207B5EA100A2A26F /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		9114C8C9207B5EA100A2A26F /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		9114C8CA207B5EA100A2A26F /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		9114C8CB207B5EA100A2A26F /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		9114C8CD207B5EA100A2A26F /* FSCalendar+Deprecated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FSCalendar+Deprecated.m"; sourceTree = "<group>"; };
+		9114C8CE207B5EA100A2A26F /* FSCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendar.h; sourceTree = "<group>"; };
+		9114C8CF207B5EA100A2A26F /* FSCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendar.m; sourceTree = "<group>"; };
+		9114C8D0207B5EA100A2A26F /* FSCalendarAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarAppearance.h; sourceTree = "<group>"; };
+		9114C8D1207B5EA100A2A26F /* FSCalendarAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarAppearance.m; sourceTree = "<group>"; };
+		9114C8D2207B5EA100A2A26F /* FSCalendarCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCalculator.h; sourceTree = "<group>"; };
+		9114C8D3207B5EA100A2A26F /* FSCalendarCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCalculator.m; sourceTree = "<group>"; };
+		9114C8D4207B5EA100A2A26F /* FSCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCell.h; sourceTree = "<group>"; };
+		9114C8D5207B5EA100A2A26F /* FSCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCell.m; sourceTree = "<group>"; };
+		9114C8D6207B5EA100A2A26F /* FSCalendarCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCollectionView.h; sourceTree = "<group>"; };
+		9114C8D7207B5EA100A2A26F /* FSCalendarCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCollectionView.m; sourceTree = "<group>"; };
+		9114C8D8207B5EA100A2A26F /* FSCalendarCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCollectionViewLayout.h; sourceTree = "<group>"; };
+		9114C8D9207B5EA100A2A26F /* FSCalendarCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCollectionViewLayout.m; sourceTree = "<group>"; };
+		9114C8DA207B5EA100A2A26F /* FSCalendarConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarConstants.h; sourceTree = "<group>"; };
+		9114C8DB207B5EA100A2A26F /* FSCalendarConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarConstants.m; sourceTree = "<group>"; };
+		9114C8DC207B5EA100A2A26F /* FSCalendarDelegationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarDelegationFactory.h; sourceTree = "<group>"; };
+		9114C8DD207B5EA100A2A26F /* FSCalendarDelegationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarDelegationFactory.m; sourceTree = "<group>"; };
+		9114C8DE207B5EA100A2A26F /* FSCalendarDelegationProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarDelegationProxy.h; sourceTree = "<group>"; };
+		9114C8DF207B5EA100A2A26F /* FSCalendarDelegationProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarDelegationProxy.m; sourceTree = "<group>"; };
+		9114C8E0207B5EA100A2A26F /* FSCalendarDynamicHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarDynamicHeader.h; sourceTree = "<group>"; };
+		9114C8E1207B5EA100A2A26F /* FSCalendarExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarExtensions.h; sourceTree = "<group>"; };
+		9114C8E2207B5EA100A2A26F /* FSCalendarExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarExtensions.m; sourceTree = "<group>"; };
+		9114C8E3207B5EA100A2A26F /* FSCalendarHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarHeaderView.h; sourceTree = "<group>"; };
+		9114C8E4207B5EA100A2A26F /* FSCalendarHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarHeaderView.m; sourceTree = "<group>"; };
+		9114C8E5207B5EA100A2A26F /* FSCalendarScopeHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarScopeHandle.h; sourceTree = "<group>"; };
+		9114C8E6207B5EA100A2A26F /* FSCalendarScopeHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarScopeHandle.m; sourceTree = "<group>"; };
+		9114C8E7207B5EA100A2A26F /* FSCalendarStickyHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarStickyHeader.h; sourceTree = "<group>"; };
+		9114C8E8207B5EA100A2A26F /* FSCalendarStickyHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarStickyHeader.m; sourceTree = "<group>"; };
+		9114C8E9207B5EA100A2A26F /* FSCalendarTransitionCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarTransitionCoordinator.h; sourceTree = "<group>"; };
+		9114C8EA207B5EA100A2A26F /* FSCalendarTransitionCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarTransitionCoordinator.m; sourceTree = "<group>"; };
+		9114C8EB207B5EA100A2A26F /* FSCalendarWeekdayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarWeekdayView.h; sourceTree = "<group>"; };
+		9114C8EC207B5EA100A2A26F /* FSCalendarWeekdayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarWeekdayView.m; sourceTree = "<group>"; };
+		9114C8ED207B5EA200A2A26F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9114C8F0207B5EA200A2A26F /* IQNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		9114C8F1207B5EA200A2A26F /* IQNSArray+Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		9114C8F2207B5EA200A2A26F /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
+		9114C8F3207B5EA200A2A26F /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
+		9114C8F4207B5EA200A2A26F /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		9114C8F5207B5EA200A2A26F /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		9114C8F6207B5EA200A2A26F /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		9114C8F7207B5EA200A2A26F /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		9114C8F8207B5EA200A2A26F /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		9114C8F9207B5EA200A2A26F /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		9114C8FB207B5EA200A2A26F /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		9114C8FC207B5EA200A2A26F /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		9114C8FD207B5EA200A2A26F /* IQKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManager.h; sourceTree = "<group>"; };
+		9114C8FE207B5EA200A2A26F /* IQKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardManager.m; sourceTree = "<group>"; };
+		9114C8FF207B5EA200A2A26F /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		9114C900207B5EA200A2A26F /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		9114C902207B5EA200A2A26F /* IQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
+		9114C903207B5EA200A2A26F /* IQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTextView.m; sourceTree = "<group>"; };
+		9114C905207B5EA200A2A26F /* IQBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQBarButtonItem.h; sourceTree = "<group>"; };
+		9114C906207B5EA200A2A26F /* IQBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQBarButtonItem.m; sourceTree = "<group>"; };
+		9114C907207B5EA200A2A26F /* IQPreviousNextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQPreviousNextView.h; sourceTree = "<group>"; };
+		9114C908207B5EA200A2A26F /* IQPreviousNextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQPreviousNextView.m; sourceTree = "<group>"; };
+		9114C909207B5EA200A2A26F /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		9114C90A207B5EA200A2A26F /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		9114C90B207B5EA200A2A26F /* IQToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQToolbar.h; sourceTree = "<group>"; };
+		9114C90C207B5EA200A2A26F /* IQToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQToolbar.m; sourceTree = "<group>"; };
+		9114C90D207B5EA200A2A26F /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		9114C90E207B5EA200A2A26F /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		9114C910207B5EA200A2A26F /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		9114C912207B5EA200A2A26F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9114C913207B5EA200A2A26F /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		9114C914207B5EA200A2A26F /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		9114C915207B5EA200A2A26F /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		9114C916207B5EA200A2A26F /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		9114C917207B5EA200A2A26F /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		9114C918207B5EA200A2A26F /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		9114C919207B5EA200A2A26F /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		9114C91A207B5EA200A2A26F /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		9114C91B207B5EA200A2A26F /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		9114C91C207B5EA200A2A26F /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		9114C91D207B5EA200A2A26F /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		9114C91E207B5EA200A2A26F /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		9114C91F207B5EA200A2A26F /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		9114C920207B5EA200A2A26F /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		9114C921207B5EA200A2A26F /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		9114C922207B5EA200A2A26F /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		9114C923207B5EA200A2A26F /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		9114C924207B5EA200A2A26F /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		9114C925207B5EA200A2A26F /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		9114C926207B5EA200A2A26F /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		9114C927207B5EA200A2A26F /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		9114C928207B5EA200A2A26F /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		9114C929207B5EA200A2A26F /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		9114C92A207B5EA200A2A26F /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		9114C92B207B5EA200A2A26F /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		9114C92D207B5EA200A2A26F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9114C92E207B5EA200A2A26F /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		9114C92F207B5EA200A2A26F /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		9114C930207B5EA200A2A26F /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		9114C931207B5EA200A2A26F /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		9114C932207B5EA200A2A26F /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		9114C933207B5EA200A2A26F /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		9114C934207B5EA200A2A26F /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		9114C935207B5EA200A2A26F /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		9114C936207B5EA200A2A26F /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		9114C937207B5EA200A2A26F /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		9114C938207B5EA200A2A26F /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		9114C939207B5EA200A2A26F /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		9114C93A207B5EA200A2A26F /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		9114C93B207B5EA200A2A26F /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		9114C93C207B5EA200A2A26F /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		9114C93D207B5EA200A2A26F /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		9114C93E207B5EA200A2A26F /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		9114C93F207B5EA200A2A26F /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		9114C940207B5EA200A2A26F /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		9114C941207B5EA200A2A26F /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		9114C942207B5EA200A2A26F /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		9114C982207B630B00A2A26F /* AddTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddTabBar.h; sourceTree = "<group>"; };
+		9114C983207B630B00A2A26F /* AddTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddTabBar.m; sourceTree = "<group>"; };
+		9114C985207B640100A2A26F /* UIBarButtonItem+PGGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+PGGExtension.m"; sourceTree = "<group>"; };
+		9114C986207B640100A2A26F /* UIBarButtonItem+PGGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+PGGExtension.h"; sourceTree = "<group>"; };
+		9114C987207B640100A2A26F /* UIView+PGGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PGGExtension.m"; sourceTree = "<group>"; };
+		9114C988207B640100A2A26F /* UIView+PGGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PGGExtension.h"; sourceTree = "<group>"; };
+		9114C991207B647800A2A26F /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		9114C992207B647800A2A26F /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		9114C995207B6CD300A2A26F /* YXCTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXCTabBarController.h; sourceTree = "<group>"; };
+		9114C996207B6CD300A2A26F /* YXCTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXCTabBarController.m; sourceTree = "<group>"; };
+		9114C998207B6D0600A2A26F /* YXCNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXCNavigationController.h; sourceTree = "<group>"; };
+		9114C999207B6D0600A2A26F /* YXCNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXCNavigationController.m; sourceTree = "<group>"; };
+		9114C9A8207B713C00A2A26F /* YXHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXHomeViewController.h; sourceTree = "<group>"; };
+		9114C9A9207B713C00A2A26F /* YXHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXHomeViewController.m; sourceTree = "<group>"; };
+		9114C9AB207B715500A2A26F /* YXFindViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXFindViewController.h; sourceTree = "<group>"; };
+		9114C9AC207B715500A2A26F /* YXFindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXFindViewController.m; sourceTree = "<group>"; };
+		9114C9AE207B716C00A2A26F /* YXMyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXMyViewController.h; sourceTree = "<group>"; };
+		9114C9AF207B716C00A2A26F /* YXMyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXMyViewController.m; sourceTree = "<group>"; };
+		9114C9B2207B727400A2A26F /* NewTaskViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewTaskViewController.h; sourceTree = "<group>"; };
+		9114C9B3207B727400A2A26F /* NewTaskViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewTaskViewController.m; sourceTree = "<group>"; };
+		9114C9B6207B7E7E00A2A26F /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		9114C9B7207B7E7E00A2A26F /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,7 +317,12 @@
 		9114C84F207B105600A2A26F /* YXCalendar */ = {
 			isa = PBXGroup;
 			children = (
-				9114C882207B146700A2A26F /* FSCalendar */,
+				9114C9B5207B7E7E00A2A26F /* Category */,
+				9114C99B207B6EA800A2A26F /* SubController */,
+				9114C8BB207B5EA100A2A26F /* source */,
+				9114C8BC207B5EA100A2A26F /* OtherThirdParty */,
+				9114C8B8207B5EA100A2A26F /* Tool */,
+				9114C994207B6C2C00A2A26F /* MainTabAndNav */,
 				9114C850207B105600A2A26F /* AppDelegate.h */,
 				9114C851207B105600A2A26F /* AppDelegate.m */,
 				9114C853207B105600A2A26F /* ViewController.h */,
@@ -161,6 +332,7 @@
 				9114C85B207B106000A2A26F /* LaunchScreen.storyboard */,
 				9114C85E207B106000A2A26F /* Info.plist */,
 				9114C85F207B106000A2A26F /* main.m */,
+				9114C8B5207B3B0300A2A26F /* YXCalendar.pch */,
 			);
 			path = YXCalendar;
 			sourceTree = "<group>";
@@ -183,44 +355,391 @@
 			path = YXCalendarUITests;
 			sourceTree = "<group>";
 		};
-		9114C882207B146700A2A26F /* FSCalendar */ = {
+		9114C8B8207B5EA100A2A26F /* Tool */ = {
 			isa = PBXGroup;
 			children = (
-				9114C883207B146700A2A26F /* FSCalendar+Deprecated.m */,
-				9114C884207B146700A2A26F /* FSCalendar.h */,
-				9114C885207B146700A2A26F /* FSCalendar.m */,
-				9114C886207B146700A2A26F /* FSCalendarAppearance.h */,
-				9114C887207B146700A2A26F /* FSCalendarAppearance.m */,
-				9114C888207B146700A2A26F /* FSCalendarCalculator.h */,
-				9114C889207B146700A2A26F /* FSCalendarCalculator.m */,
-				9114C88A207B146700A2A26F /* FSCalendarCell.h */,
-				9114C88B207B146700A2A26F /* FSCalendarCell.m */,
-				9114C88C207B146700A2A26F /* FSCalendarCollectionView.h */,
-				9114C88D207B146700A2A26F /* FSCalendarCollectionView.m */,
-				9114C88E207B146700A2A26F /* FSCalendarCollectionViewLayout.h */,
-				9114C88F207B146700A2A26F /* FSCalendarCollectionViewLayout.m */,
-				9114C890207B146700A2A26F /* FSCalendarConstants.h */,
-				9114C891207B146700A2A26F /* FSCalendarConstants.m */,
-				9114C892207B146700A2A26F /* FSCalendarDelegationFactory.h */,
-				9114C893207B146700A2A26F /* FSCalendarDelegationFactory.m */,
-				9114C894207B146700A2A26F /* FSCalendarDelegationProxy.h */,
-				9114C895207B146700A2A26F /* FSCalendarDelegationProxy.m */,
-				9114C896207B146700A2A26F /* FSCalendarDynamicHeader.h */,
-				9114C897207B146700A2A26F /* FSCalendarExtensions.h */,
-				9114C898207B146700A2A26F /* FSCalendarExtensions.m */,
-				9114C899207B146700A2A26F /* FSCalendarHeaderView.h */,
-				9114C89A207B146700A2A26F /* FSCalendarHeaderView.m */,
-				9114C89B207B146700A2A26F /* FSCalendarScopeHandle.h */,
-				9114C89C207B146700A2A26F /* FSCalendarScopeHandle.m */,
-				9114C89D207B146700A2A26F /* FSCalendarStickyHeader.h */,
-				9114C89E207B146700A2A26F /* FSCalendarStickyHeader.m */,
-				9114C89F207B146700A2A26F /* FSCalendarTransitionCoordinator.h */,
-				9114C8A0207B146700A2A26F /* FSCalendarTransitionCoordinator.m */,
-				9114C8A1207B146700A2A26F /* FSCalendarWeekdayView.h */,
-				9114C8A2207B146700A2A26F /* FSCalendarWeekdayView.m */,
-				9114C8A3207B146700A2A26F /* Info.plist */,
+				9114C986207B640100A2A26F /* UIBarButtonItem+PGGExtension.h */,
+				9114C985207B640100A2A26F /* UIBarButtonItem+PGGExtension.m */,
+				9114C988207B640100A2A26F /* UIView+PGGExtension.h */,
+				9114C987207B640100A2A26F /* UIView+PGGExtension.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		9114C8BB207B5EA100A2A26F /* source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		9114C8BC207B5EA100A2A26F /* OtherThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				9114C990207B647800A2A26F /* MBProgressHUD */,
+				9114C8BD207B5EA100A2A26F /* AddTableBar */,
+				9114C8BE207B5EA100A2A26F /* AFNetworking */,
+				9114C8CC207B5EA100A2A26F /* FSCalendar */,
+				9114C8EE207B5EA200A2A26F /* IQKeyboardManager */,
+				9114C911207B5EA200A2A26F /* Masonry */,
+				9114C92C207B5EA200A2A26F /* MJExtension */,
+			);
+			path = OtherThirdParty;
+			sourceTree = "<group>";
+		};
+		9114C8BD207B5EA100A2A26F /* AddTableBar */ = {
+			isa = PBXGroup;
+			children = (
+				9114C982207B630B00A2A26F /* AddTabBar.h */,
+				9114C983207B630B00A2A26F /* AddTabBar.m */,
+			);
+			path = AddTableBar;
+			sourceTree = "<group>";
+		};
+		9114C8BE207B5EA100A2A26F /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				9114C8BF207B5EA100A2A26F /* AFHTTPSessionManager.h */,
+				9114C8C0207B5EA100A2A26F /* AFHTTPSessionManager.m */,
+				9114C8C1207B5EA100A2A26F /* AFNetworking.h */,
+				9114C8C2207B5EA100A2A26F /* AFNetworkReachabilityManager.h */,
+				9114C8C3207B5EA100A2A26F /* AFNetworkReachabilityManager.m */,
+				9114C8C4207B5EA100A2A26F /* AFSecurityPolicy.h */,
+				9114C8C5207B5EA100A2A26F /* AFSecurityPolicy.m */,
+				9114C8C6207B5EA100A2A26F /* AFURLRequestSerialization.h */,
+				9114C8C7207B5EA100A2A26F /* AFURLRequestSerialization.m */,
+				9114C8C8207B5EA100A2A26F /* AFURLResponseSerialization.h */,
+				9114C8C9207B5EA100A2A26F /* AFURLResponseSerialization.m */,
+				9114C8CA207B5EA100A2A26F /* AFURLSessionManager.h */,
+				9114C8CB207B5EA100A2A26F /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		9114C8CC207B5EA100A2A26F /* FSCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				9114C8CD207B5EA100A2A26F /* FSCalendar+Deprecated.m */,
+				9114C8CE207B5EA100A2A26F /* FSCalendar.h */,
+				9114C8CF207B5EA100A2A26F /* FSCalendar.m */,
+				9114C8D0207B5EA100A2A26F /* FSCalendarAppearance.h */,
+				9114C8D1207B5EA100A2A26F /* FSCalendarAppearance.m */,
+				9114C8D2207B5EA100A2A26F /* FSCalendarCalculator.h */,
+				9114C8D3207B5EA100A2A26F /* FSCalendarCalculator.m */,
+				9114C8D4207B5EA100A2A26F /* FSCalendarCell.h */,
+				9114C8D5207B5EA100A2A26F /* FSCalendarCell.m */,
+				9114C8D6207B5EA100A2A26F /* FSCalendarCollectionView.h */,
+				9114C8D7207B5EA100A2A26F /* FSCalendarCollectionView.m */,
+				9114C8D8207B5EA100A2A26F /* FSCalendarCollectionViewLayout.h */,
+				9114C8D9207B5EA100A2A26F /* FSCalendarCollectionViewLayout.m */,
+				9114C8DA207B5EA100A2A26F /* FSCalendarConstants.h */,
+				9114C8DB207B5EA100A2A26F /* FSCalendarConstants.m */,
+				9114C8DC207B5EA100A2A26F /* FSCalendarDelegationFactory.h */,
+				9114C8DD207B5EA100A2A26F /* FSCalendarDelegationFactory.m */,
+				9114C8DE207B5EA100A2A26F /* FSCalendarDelegationProxy.h */,
+				9114C8DF207B5EA100A2A26F /* FSCalendarDelegationProxy.m */,
+				9114C8E0207B5EA100A2A26F /* FSCalendarDynamicHeader.h */,
+				9114C8E1207B5EA100A2A26F /* FSCalendarExtensions.h */,
+				9114C8E2207B5EA100A2A26F /* FSCalendarExtensions.m */,
+				9114C8E3207B5EA100A2A26F /* FSCalendarHeaderView.h */,
+				9114C8E4207B5EA100A2A26F /* FSCalendarHeaderView.m */,
+				9114C8E5207B5EA100A2A26F /* FSCalendarScopeHandle.h */,
+				9114C8E6207B5EA100A2A26F /* FSCalendarScopeHandle.m */,
+				9114C8E7207B5EA100A2A26F /* FSCalendarStickyHeader.h */,
+				9114C8E8207B5EA100A2A26F /* FSCalendarStickyHeader.m */,
+				9114C8E9207B5EA100A2A26F /* FSCalendarTransitionCoordinator.h */,
+				9114C8EA207B5EA100A2A26F /* FSCalendarTransitionCoordinator.m */,
+				9114C8EB207B5EA100A2A26F /* FSCalendarWeekdayView.h */,
+				9114C8EC207B5EA100A2A26F /* FSCalendarWeekdayView.m */,
+				9114C8ED207B5EA200A2A26F /* Info.plist */,
 			);
 			path = FSCalendar;
+			sourceTree = "<group>";
+		};
+		9114C8EE207B5EA200A2A26F /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				9114C8EF207B5EA200A2A26F /* Categories */,
+				9114C8FA207B5EA200A2A26F /* Constants */,
+				9114C8FD207B5EA200A2A26F /* IQKeyboardManager.h */,
+				9114C8FE207B5EA200A2A26F /* IQKeyboardManager.m */,
+				9114C8FF207B5EA200A2A26F /* IQKeyboardReturnKeyHandler.h */,
+				9114C900207B5EA200A2A26F /* IQKeyboardReturnKeyHandler.m */,
+				9114C901207B5EA200A2A26F /* IQTextView */,
+				9114C904207B5EA200A2A26F /* IQToolbar */,
+				9114C90F207B5EA200A2A26F /* Resources */,
+			);
+			path = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		9114C8EF207B5EA200A2A26F /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				9114C8F0207B5EA200A2A26F /* IQNSArray+Sort.h */,
+				9114C8F1207B5EA200A2A26F /* IQNSArray+Sort.m */,
+				9114C8F2207B5EA200A2A26F /* IQUIScrollView+Additions.h */,
+				9114C8F3207B5EA200A2A26F /* IQUIScrollView+Additions.m */,
+				9114C8F4207B5EA200A2A26F /* IQUITextFieldView+Additions.h */,
+				9114C8F5207B5EA200A2A26F /* IQUITextFieldView+Additions.m */,
+				9114C8F6207B5EA200A2A26F /* IQUIView+Hierarchy.h */,
+				9114C8F7207B5EA200A2A26F /* IQUIView+Hierarchy.m */,
+				9114C8F8207B5EA200A2A26F /* IQUIViewController+Additions.h */,
+				9114C8F9207B5EA200A2A26F /* IQUIViewController+Additions.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		9114C8FA207B5EA200A2A26F /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				9114C8FB207B5EA200A2A26F /* IQKeyboardManagerConstants.h */,
+				9114C8FC207B5EA200A2A26F /* IQKeyboardManagerConstantsInternal.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		9114C901207B5EA200A2A26F /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				9114C902207B5EA200A2A26F /* IQTextView.h */,
+				9114C903207B5EA200A2A26F /* IQTextView.m */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		9114C904207B5EA200A2A26F /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				9114C905207B5EA200A2A26F /* IQBarButtonItem.h */,
+				9114C906207B5EA200A2A26F /* IQBarButtonItem.m */,
+				9114C907207B5EA200A2A26F /* IQPreviousNextView.h */,
+				9114C908207B5EA200A2A26F /* IQPreviousNextView.m */,
+				9114C909207B5EA200A2A26F /* IQTitleBarButtonItem.h */,
+				9114C90A207B5EA200A2A26F /* IQTitleBarButtonItem.m */,
+				9114C90B207B5EA200A2A26F /* IQToolbar.h */,
+				9114C90C207B5EA200A2A26F /* IQToolbar.m */,
+				9114C90D207B5EA200A2A26F /* IQUIView+IQKeyboardToolbar.h */,
+				9114C90E207B5EA200A2A26F /* IQUIView+IQKeyboardToolbar.m */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		9114C90F207B5EA200A2A26F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9114C910207B5EA200A2A26F /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9114C911207B5EA200A2A26F /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				9114C912207B5EA200A2A26F /* Info.plist */,
+				9114C913207B5EA200A2A26F /* MASCompositeConstraint.h */,
+				9114C914207B5EA200A2A26F /* MASCompositeConstraint.m */,
+				9114C915207B5EA200A2A26F /* MASConstraint+Private.h */,
+				9114C916207B5EA200A2A26F /* MASConstraint.h */,
+				9114C917207B5EA200A2A26F /* MASConstraint.m */,
+				9114C918207B5EA200A2A26F /* MASConstraintMaker.h */,
+				9114C919207B5EA200A2A26F /* MASConstraintMaker.m */,
+				9114C91A207B5EA200A2A26F /* MASLayoutConstraint.h */,
+				9114C91B207B5EA200A2A26F /* MASLayoutConstraint.m */,
+				9114C91C207B5EA200A2A26F /* Masonry.h */,
+				9114C91D207B5EA200A2A26F /* MASUtilities.h */,
+				9114C91E207B5EA200A2A26F /* MASViewAttribute.h */,
+				9114C91F207B5EA200A2A26F /* MASViewAttribute.m */,
+				9114C920207B5EA200A2A26F /* MASViewConstraint.h */,
+				9114C921207B5EA200A2A26F /* MASViewConstraint.m */,
+				9114C922207B5EA200A2A26F /* NSArray+MASAdditions.h */,
+				9114C923207B5EA200A2A26F /* NSArray+MASAdditions.m */,
+				9114C924207B5EA200A2A26F /* NSArray+MASShorthandAdditions.h */,
+				9114C925207B5EA200A2A26F /* NSLayoutConstraint+MASDebugAdditions.h */,
+				9114C926207B5EA200A2A26F /* NSLayoutConstraint+MASDebugAdditions.m */,
+				9114C927207B5EA200A2A26F /* View+MASAdditions.h */,
+				9114C928207B5EA200A2A26F /* View+MASAdditions.m */,
+				9114C929207B5EA200A2A26F /* View+MASShorthandAdditions.h */,
+				9114C92A207B5EA200A2A26F /* ViewController+MASAdditions.h */,
+				9114C92B207B5EA200A2A26F /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		9114C92C207B5EA200A2A26F /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				9114C92D207B5EA200A2A26F /* Info.plist */,
+				9114C92E207B5EA200A2A26F /* MJExtension.h */,
+				9114C92F207B5EA200A2A26F /* MJExtensionConst.h */,
+				9114C930207B5EA200A2A26F /* MJExtensionConst.m */,
+				9114C931207B5EA200A2A26F /* MJFoundation.h */,
+				9114C932207B5EA200A2A26F /* MJFoundation.m */,
+				9114C933207B5EA200A2A26F /* MJProperty.h */,
+				9114C934207B5EA200A2A26F /* MJProperty.m */,
+				9114C935207B5EA200A2A26F /* MJPropertyKey.h */,
+				9114C936207B5EA200A2A26F /* MJPropertyKey.m */,
+				9114C937207B5EA200A2A26F /* MJPropertyType.h */,
+				9114C938207B5EA200A2A26F /* MJPropertyType.m */,
+				9114C939207B5EA200A2A26F /* NSObject+MJClass.h */,
+				9114C93A207B5EA200A2A26F /* NSObject+MJClass.m */,
+				9114C93B207B5EA200A2A26F /* NSObject+MJCoding.h */,
+				9114C93C207B5EA200A2A26F /* NSObject+MJCoding.m */,
+				9114C93D207B5EA200A2A26F /* NSObject+MJKeyValue.h */,
+				9114C93E207B5EA200A2A26F /* NSObject+MJKeyValue.m */,
+				9114C93F207B5EA200A2A26F /* NSObject+MJProperty.h */,
+				9114C940207B5EA200A2A26F /* NSObject+MJProperty.m */,
+				9114C941207B5EA200A2A26F /* NSString+MJExtension.h */,
+				9114C942207B5EA200A2A26F /* NSString+MJExtension.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		9114C990207B647800A2A26F /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				9114C991207B647800A2A26F /* MBProgressHUD.h */,
+				9114C992207B647800A2A26F /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		9114C994207B6C2C00A2A26F /* MainTabAndNav */ = {
+			isa = PBXGroup;
+			children = (
+				9114C995207B6CD300A2A26F /* YXCTabBarController.h */,
+				9114C996207B6CD300A2A26F /* YXCTabBarController.m */,
+				9114C998207B6D0600A2A26F /* YXCNavigationController.h */,
+				9114C999207B6D0600A2A26F /* YXCNavigationController.m */,
+			);
+			path = MainTabAndNav;
+			sourceTree = "<group>";
+		};
+		9114C99B207B6EA800A2A26F /* SubController */ = {
+			isa = PBXGroup;
+			children = (
+				9114C9B1207B723700A2A26F /* NewTask */,
+				9114C99C207B6EA800A2A26F /* Find */,
+				9114C9A0207B6EA800A2A26F /* Home */,
+				9114C9A4207B6EA800A2A26F /* My */,
+			);
+			path = SubController;
+			sourceTree = "<group>";
+		};
+		9114C99C207B6EA800A2A26F /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				9114C99D207B6EA800A2A26F /* Controller */,
+				9114C99E207B6EA800A2A26F /* Model */,
+				9114C99F207B6EA800A2A26F /* View */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		9114C99D207B6EA800A2A26F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9114C9AB207B715500A2A26F /* YXFindViewController.h */,
+				9114C9AC207B715500A2A26F /* YXFindViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9114C99E207B6EA800A2A26F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9114C99F207B6EA800A2A26F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9114C9A0207B6EA800A2A26F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9114C9A1207B6EA800A2A26F /* Controller */,
+				9114C9A2207B6EA800A2A26F /* Model */,
+				9114C9A3207B6EA800A2A26F /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9114C9A1207B6EA800A2A26F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9114C9A8207B713C00A2A26F /* YXHomeViewController.h */,
+				9114C9A9207B713C00A2A26F /* YXHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9114C9A2207B6EA800A2A26F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9114C9A3207B6EA800A2A26F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9114C9A4207B6EA800A2A26F /* My */ = {
+			isa = PBXGroup;
+			children = (
+				9114C9A5207B6EA800A2A26F /* Controller */,
+				9114C9A6207B6EA800A2A26F /* Model */,
+				9114C9A7207B6EA800A2A26F /* View */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		9114C9A5207B6EA800A2A26F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9114C9AE207B716C00A2A26F /* YXMyViewController.h */,
+				9114C9AF207B716C00A2A26F /* YXMyViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9114C9A6207B6EA800A2A26F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9114C9A7207B6EA800A2A26F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9114C9B1207B723700A2A26F /* NewTask */ = {
+			isa = PBXGroup;
+			children = (
+				9114C9B2207B727400A2A26F /* NewTaskViewController.h */,
+				9114C9B3207B727400A2A26F /* NewTaskViewController.m */,
+			);
+			path = NewTask;
+			sourceTree = "<group>";
+		};
+		9114C9B5207B7E7E00A2A26F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				9114C9B6207B7E7E00A2A26F /* UIViewExt.h */,
+				9114C9B7207B7E7E00A2A26F /* UIViewExt.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,10 +845,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9114C8B4207B146700A2A26F /* Info.plist in Resources */,
+				9114C968207B5EA200A2A26F /* IQKeyboardManager.bundle in Resources */,
+				9114C95A207B5EA200A2A26F /* Info.plist in Resources */,
+				9114C969207B5EA200A2A26F /* Info.plist in Resources */,
 				9114C85D207B106000A2A26F /* LaunchScreen.storyboard in Resources */,
 				9114C85A207B106000A2A26F /* Assets.xcassets in Resources */,
 				9114C858207B105600A2A26F /* Main.storyboard in Resources */,
+				9114C974207B5EA200A2A26F /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,25 +876,75 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9114C8A6207B146700A2A26F /* FSCalendarAppearance.m in Sources */,
-				9114C8AF207B146700A2A26F /* FSCalendarHeaderView.m in Sources */,
+				9114C96F207B5EA200A2A26F /* MASViewConstraint.m in Sources */,
+				9114C97C207B5EA200A2A26F /* NSObject+MJKeyValue.m in Sources */,
+				9114C946207B5EA200A2A26F /* AFSecurityPolicy.m in Sources */,
+				9114C96E207B5EA200A2A26F /* MASViewAttribute.m in Sources */,
+				9114C963207B5EA200A2A26F /* IQBarButtonItem.m in Sources */,
+				9114C95F207B5EA200A2A26F /* IQUIViewController+Additions.m in Sources */,
+				9114C9B4207B727400A2A26F /* NewTaskViewController.m in Sources */,
+				9114C95D207B5EA200A2A26F /* IQUITextFieldView+Additions.m in Sources */,
+				9114C96A207B5EA200A2A26F /* MASCompositeConstraint.m in Sources */,
+				9114C971207B5EA200A2A26F /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				9114C948207B5EA200A2A26F /* AFURLResponseSerialization.m in Sources */,
+				9114C979207B5EA200A2A26F /* MJPropertyType.m in Sources */,
+				9114C94B207B5EA200A2A26F /* FSCalendar.m in Sources */,
+				9114C98A207B640100A2A26F /* UIView+PGGExtension.m in Sources */,
+				9114C962207B5EA200A2A26F /* IQTextView.m in Sources */,
+				9114C9AD207B715500A2A26F /* YXFindViewController.m in Sources */,
+				9114C989207B640100A2A26F /* UIBarButtonItem+PGGExtension.m in Sources */,
+				9114C973207B5EA200A2A26F /* ViewController+MASAdditions.m in Sources */,
+				9114C95E207B5EA200A2A26F /* IQUIView+Hierarchy.m in Sources */,
+				9114C964207B5EA200A2A26F /* IQPreviousNextView.m in Sources */,
+				9114C954207B5EA200A2A26F /* FSCalendarExtensions.m in Sources */,
 				9114C855207B105600A2A26F /* ViewController.m in Sources */,
-				9114C8A4207B146700A2A26F /* FSCalendar+Deprecated.m in Sources */,
-				9114C8B2207B146700A2A26F /* FSCalendarTransitionCoordinator.m in Sources */,
-				9114C8AB207B146700A2A26F /* FSCalendarConstants.m in Sources */,
+				9114C997207B6CD300A2A26F /* YXCTabBarController.m in Sources */,
+				9114C94A207B5EA200A2A26F /* FSCalendar+Deprecated.m in Sources */,
+				9114C97E207B5EA200A2A26F /* NSString+MJExtension.m in Sources */,
+				9114C959207B5EA200A2A26F /* FSCalendarWeekdayView.m in Sources */,
+				9114C966207B5EA200A2A26F /* IQToolbar.m in Sources */,
+				9114C952207B5EA200A2A26F /* FSCalendarDelegationFactory.m in Sources */,
+				9114C970207B5EA200A2A26F /* NSArray+MASAdditions.m in Sources */,
+				9114C9AA207B713C00A2A26F /* YXHomeViewController.m in Sources */,
+				9114C972207B5EA200A2A26F /* View+MASAdditions.m in Sources */,
+				9114C99A207B6D0600A2A26F /* YXCNavigationController.m in Sources */,
+				9114C950207B5EA200A2A26F /* FSCalendarCollectionViewLayout.m in Sources */,
+				9114C978207B5EA200A2A26F /* MJPropertyKey.m in Sources */,
+				9114C9B8207B7E7F00A2A26F /* UIViewExt.m in Sources */,
+				9114C95C207B5EA200A2A26F /* IQUIScrollView+Additions.m in Sources */,
+				9114C961207B5EA200A2A26F /* IQKeyboardReturnKeyHandler.m in Sources */,
+				9114C94C207B5EA200A2A26F /* FSCalendarAppearance.m in Sources */,
+				9114C97B207B5EA200A2A26F /* NSObject+MJCoding.m in Sources */,
+				9114C97A207B5EA200A2A26F /* NSObject+MJClass.m in Sources */,
+				9114C94D207B5EA200A2A26F /* FSCalendarCalculator.m in Sources */,
 				9114C860207B106000A2A26F /* main.m in Sources */,
-				9114C8A9207B146700A2A26F /* FSCalendarCollectionView.m in Sources */,
-				9114C8B1207B146700A2A26F /* FSCalendarStickyHeader.m in Sources */,
+				9114C958207B5EA200A2A26F /* FSCalendarTransitionCoordinator.m in Sources */,
+				9114C944207B5EA200A2A26F /* AFHTTPSessionManager.m in Sources */,
+				9114C96B207B5EA200A2A26F /* MASConstraint.m in Sources */,
+				9114C953207B5EA200A2A26F /* FSCalendarDelegationProxy.m in Sources */,
+				9114C95B207B5EA200A2A26F /* IQNSArray+Sort.m in Sources */,
+				9114C976207B5EA200A2A26F /* MJFoundation.m in Sources */,
+				9114C960207B5EA200A2A26F /* IQKeyboardManager.m in Sources */,
+				9114C951207B5EA200A2A26F /* FSCalendarConstants.m in Sources */,
+				9114C94E207B5EA200A2A26F /* FSCalendarCell.m in Sources */,
+				9114C949207B5EA200A2A26F /* AFURLSessionManager.m in Sources */,
 				9114C852207B105600A2A26F /* AppDelegate.m in Sources */,
-				9114C8B3207B146700A2A26F /* FSCalendarWeekdayView.m in Sources */,
-				9114C8AC207B146700A2A26F /* FSCalendarDelegationFactory.m in Sources */,
-				9114C8AD207B146700A2A26F /* FSCalendarDelegationProxy.m in Sources */,
-				9114C8A5207B146700A2A26F /* FSCalendar.m in Sources */,
-				9114C8B0207B146700A2A26F /* FSCalendarScopeHandle.m in Sources */,
-				9114C8AE207B146700A2A26F /* FSCalendarExtensions.m in Sources */,
-				9114C8A8207B146700A2A26F /* FSCalendarCell.m in Sources */,
-				9114C8AA207B146700A2A26F /* FSCalendarCollectionViewLayout.m in Sources */,
-				9114C8A7207B146700A2A26F /* FSCalendarCalculator.m in Sources */,
+				9114C9B0207B716C00A2A26F /* YXMyViewController.m in Sources */,
+				9114C945207B5EA200A2A26F /* AFNetworkReachabilityManager.m in Sources */,
+				9114C97D207B5EA200A2A26F /* NSObject+MJProperty.m in Sources */,
+				9114C984207B630B00A2A26F /* AddTabBar.m in Sources */,
+				9114C955207B5EA200A2A26F /* FSCalendarHeaderView.m in Sources */,
+				9114C96C207B5EA200A2A26F /* MASConstraintMaker.m in Sources */,
+				9114C977207B5EA200A2A26F /* MJProperty.m in Sources */,
+				9114C993207B647800A2A26F /* MBProgressHUD.m in Sources */,
+				9114C96D207B5EA200A2A26F /* MASLayoutConstraint.m in Sources */,
+				9114C965207B5EA200A2A26F /* IQTitleBarButtonItem.m in Sources */,
+				9114C947207B5EA200A2A26F /* AFURLRequestSerialization.m in Sources */,
+				9114C956207B5EA200A2A26F /* FSCalendarScopeHandle.m in Sources */,
+				9114C975207B5EA200A2A26F /* MJExtensionConst.m in Sources */,
+				9114C957207B5EA200A2A26F /* FSCalendarStickyHeader.m in Sources */,
+				9114C967207B5EA200A2A26F /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				9114C94F207B5EA200A2A26F /* FSCalendarCollectionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,12 +1115,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y39UHY9C7M;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = YXCalendar/YXCalendar.pch;
 				INFOPLIST_FILE = YXCalendar/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yixin.YXCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -561,12 +1136,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y39UHY9C7M;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = YXCalendar/YXCalendar.pch;
 				INFOPLIST_FILE = YXCalendar/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yixin.YXCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;

@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "YXCTabBarController.h"
+#import "IQKeyboardManager.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [IQKeyboardManager sharedManager].shouldResignOnTouchOutside = YES;
+    // 创建窗口
+    self.window = [[UIWindow alloc]init];
+    self.window.frame = [UIScreen mainScreen].bounds;
+    self.window.backgroundColor = [UIColor whiteColor];
+    //设置根控制器
+    self.window.rootViewController = [[YXCTabBarController alloc]init];
+    // 显示窗口
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
