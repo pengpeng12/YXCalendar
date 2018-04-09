@@ -317,9 +317,9 @@
 		9114C84F207B105600A2A26F /* YXCalendar */ = {
 			isa = PBXGroup;
 			children = (
+				9114C9B9207B945C00A2A26F /* Source */,
 				9114C9B5207B7E7E00A2A26F /* Category */,
 				9114C99B207B6EA800A2A26F /* SubController */,
-				9114C8BB207B5EA100A2A26F /* source */,
 				9114C8BC207B5EA100A2A26F /* OtherThirdParty */,
 				9114C8B8207B5EA100A2A26F /* Tool */,
 				9114C994207B6C2C00A2A26F /* MainTabAndNav */,
@@ -364,13 +364,6 @@
 				9114C987207B640100A2A26F /* UIView+PGGExtension.m */,
 			);
 			path = Tool;
-			sourceTree = "<group>";
-		};
-		9114C8BB207B5EA100A2A26F /* source */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = source;
 			sourceTree = "<group>";
 		};
 		9114C8BC207B5EA100A2A26F /* OtherThirdParty */ = {
@@ -740,6 +733,13 @@
 				9114C9B7207B7E7E00A2A26F /* UIViewExt.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		9114C9B9207B945C00A2A26F /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
