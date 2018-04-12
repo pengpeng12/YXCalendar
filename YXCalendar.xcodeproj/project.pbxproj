@@ -85,6 +85,9 @@
 		9114C9B0207B716C00A2A26F /* YXMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C9AF207B716C00A2A26F /* YXMyViewController.m */; };
 		9114C9B4207B727400A2A26F /* NewTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C9B3207B727400A2A26F /* NewTaskViewController.m */; };
 		9114C9B8207B7E7F00A2A26F /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114C9B7207B7E7E00A2A26F /* UIViewExt.m */; };
+		9114CB53207D979100A2A26F /* RangePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114CB52207D979100A2A26F /* RangePickerViewController.m */; };
+		9114CB56207D97D600A2A26F /* RangePickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114CB55207D97D600A2A26F /* RangePickerCell.m */; };
+		9114CB59207F08DC00A2A26F /* CommonMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 9114CB58207F08DC00A2A26F /* CommonMethod.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -267,6 +270,12 @@
 		9114C9B3207B727400A2A26F /* NewTaskViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewTaskViewController.m; sourceTree = "<group>"; };
 		9114C9B6207B7E7E00A2A26F /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
 		9114C9B7207B7E7E00A2A26F /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		9114CB51207D979100A2A26F /* RangePickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RangePickerViewController.h; sourceTree = "<group>"; };
+		9114CB52207D979100A2A26F /* RangePickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RangePickerViewController.m; sourceTree = "<group>"; };
+		9114CB54207D97D600A2A26F /* RangePickerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RangePickerCell.h; sourceTree = "<group>"; };
+		9114CB55207D97D600A2A26F /* RangePickerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RangePickerCell.m; sourceTree = "<group>"; };
+		9114CB57207F08DC00A2A26F /* CommonMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMethod.h; sourceTree = "<group>"; };
+		9114CB58207F08DC00A2A26F /* CommonMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMethod.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -358,6 +367,8 @@
 		9114C8B8207B5EA100A2A26F /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				9114CB57207F08DC00A2A26F /* CommonMethod.h */,
+				9114CB58207F08DC00A2A26F /* CommonMethod.m */,
 				9114C986207B640100A2A26F /* UIBarButtonItem+PGGExtension.h */,
 				9114C985207B640100A2A26F /* UIBarButtonItem+PGGExtension.m */,
 				9114C988207B640100A2A26F /* UIView+PGGExtension.h */,
@@ -610,6 +621,7 @@
 		9114C99B207B6EA800A2A26F /* SubController */ = {
 			isa = PBXGroup;
 			children = (
+				9114CB50207D957C00A2A26F /* RangePicker */,
 				9114C9B1207B723700A2A26F /* NewTask */,
 				9114C99C207B6EA800A2A26F /* Find */,
 				9114C9A0207B6EA800A2A26F /* Home */,
@@ -740,6 +752,17 @@
 			children = (
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		9114CB50207D957C00A2A26F /* RangePicker */ = {
+			isa = PBXGroup;
+			children = (
+				9114CB51207D979100A2A26F /* RangePickerViewController.h */,
+				9114CB52207D979100A2A26F /* RangePickerViewController.m */,
+				9114CB54207D97D600A2A26F /* RangePickerCell.h */,
+				9114CB55207D97D600A2A26F /* RangePickerCell.m */,
+			);
+			path = RangePicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -903,6 +926,7 @@
 				9114C97E207B5EA200A2A26F /* NSString+MJExtension.m in Sources */,
 				9114C959207B5EA200A2A26F /* FSCalendarWeekdayView.m in Sources */,
 				9114C966207B5EA200A2A26F /* IQToolbar.m in Sources */,
+				9114CB59207F08DC00A2A26F /* CommonMethod.m in Sources */,
 				9114C952207B5EA200A2A26F /* FSCalendarDelegationFactory.m in Sources */,
 				9114C970207B5EA200A2A26F /* NSArray+MASAdditions.m in Sources */,
 				9114C9AA207B713C00A2A26F /* YXHomeViewController.m in Sources */,
@@ -918,6 +942,8 @@
 				9114C97A207B5EA200A2A26F /* NSObject+MJClass.m in Sources */,
 				9114C94D207B5EA200A2A26F /* FSCalendarCalculator.m in Sources */,
 				9114C860207B106000A2A26F /* main.m in Sources */,
+				9114CB53207D979100A2A26F /* RangePickerViewController.m in Sources */,
+				9114CB56207D97D600A2A26F /* RangePickerCell.m in Sources */,
 				9114C958207B5EA200A2A26F /* FSCalendarTransitionCoordinator.m in Sources */,
 				9114C944207B5EA200A2A26F /* AFHTTPSessionManager.m in Sources */,
 				9114C96B207B5EA200A2A26F /* MASConstraint.m in Sources */,

@@ -21,6 +21,7 @@
     // Do any additional setup after loading the view.
     //解决自定义返回按钮后滑动手势失效的问题
     self.interactivePopGestureRecognizer.delegate = nil;
+    self.navigationBar.translucent=NO;
 }
 
 +(void)initialize {
