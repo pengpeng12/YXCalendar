@@ -7,7 +7,6 @@
 //代码地址 https://github.com/penghero/PGG_Sina.git
 
 #import "UIBarButtonItem+PGGExtension.h"
-#import "UIView+PGGExtension.h"
 
 @implementation UIBarButtonItem (PGGExtension)
 +(UIBarButtonItem *)itemWithTarget:(id)target action:(SEL)action image:(NSString *)image heighlightImage:(NSString *)heilightImage {
