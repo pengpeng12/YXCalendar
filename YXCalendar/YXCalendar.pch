@@ -23,6 +23,12 @@
 #import "UIViewExt.h"
 #import "CommonMethod.h"
 
+
+// 适配iPhone X Tabbar高度
+#define MC_TabbarHeight (kDevice_Is_iPhoneX ? (49.f+34.f) : 49.f)
+// 适配iPhone X Tabbar距离底部的距离
+#define MC_TabbarSafeBottomMargin (kDevice_Is_iPhoneX ? 34.f : 0.f)
+
 //日志开关 仅在debug下会起作用
 #ifdef DEBUG
 #define NSLog(FORMAT, ...) printf("%s\n", [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String])
@@ -31,6 +37,7 @@
 #endif
 
 #define telNum @"0123456789"
+
 //alert提示框
 #   define AlertViewShow(msg,btnTitle,cancelTitle)\
 UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"提示" message:msg delegate:self cancelButtonTitle:btnTitle otherButtonTitles:cancelTitle,nil];\

@@ -7,7 +7,6 @@
 //
 
 #import "AddTabBar.h"
-#import "UIView+PGGExtension.h"
 
 @interface AddTabBar ()
 @property (nonatomic, weak) UIButton *plusBtn;
@@ -42,11 +41,11 @@
 -(void)layoutSubviews {
     [super layoutSubviews];
     //设置加号的位置
-    self.plusBtn.centerX = self.width *0.5;
+    self.plusBtn.dc_centerX = self.width *0.5;
     if (kDevice_Is_iPhoneX) {
-        self.plusBtn.centerY = self.height *0.3; //没有超过tabbar高度 无需处理
+        self.plusBtn.dc_centerY = self.height *0.3; //没有超过tabbar高度 无需处理
     } else {
-        self.plusBtn.centerY = self.height *0.5;//加号超过tabbar高度后 无响应
+        self.plusBtn.dc_centerY = self.height *0.5;//加号超过tabbar高度后 无响应
     }
     //设置其他tabbarButton的位置和尺寸
     CGFloat tabBarButtonW  = self.width / 5;
@@ -56,9 +55,9 @@
         Class class = NSClassFromString(@"UITabBarButton");
         if ([child isKindOfClass:class]) {
             child.width = tabBarButtonW;
-            child.x = tabbarButtonIndex *tabBarButtonW + MarginW;
+            child.left = tabbarButtonIndex *tabBarButtonW + MarginW;
             if (tabbarButtonIndex == 2) {
-                child.x = tabbarButtonIndex *tabBarButtonW + MarginW*3;
+                child.left = tabbarButtonIndex *tabBarButtonW + MarginW*3;
             }
             //增加索引
             tabbarButtonIndex ++;

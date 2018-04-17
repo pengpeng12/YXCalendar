@@ -26,7 +26,16 @@ CGRect  CGRectMoveToCenter(CGRect rect, CGPoint center);
 @property CGFloat bottom;
 @property CGFloat right;
 
+@property (nonatomic , assign) CGFloat dc_centerX;
+@property (nonatomic , assign) CGFloat dc_centerY;
+
 - (void) moveBy: (CGPoint) delta;
 - (void) scaleBy: (CGFloat) scaleFactor;
 - (void) fitInSize: (CGSize) aSize;
+
++(instancetype)dc_viewFromXib;
+
++(void)tablevieiOS11:(UITableView*)tableView isHaveTabbar:(BOOL)ishaveTabbar;
++(void)collectionViewiOS11:(UICollectionView *)collectionView isHaveTabbar:(BOOL)ishaveTabbar;
+
 @end
